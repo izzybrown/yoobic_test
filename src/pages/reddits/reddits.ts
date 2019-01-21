@@ -8,7 +8,7 @@ import { RedditService} from '../../app/services/reddit.service';
 })
 export class RedditsPage {
 
-  constructor(public navCtrl: NavController, private http: HttpClientModule) {
+  constructor(public navCtrl: NavController) {
 
   }
 
