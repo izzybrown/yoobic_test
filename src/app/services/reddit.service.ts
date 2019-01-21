@@ -7,7 +7,7 @@ export class RedditService{
   http:any;
   baseUrl: String;
 
-  constructor(http:Http){
+  constructor(http: HttpClientModule){
       this.http = http;
       this.baseUrl = 'https://www.reddit.com/r';
   }
